@@ -1,5 +1,5 @@
 /** Media Queries **/
-html {
+java {
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
@@ -306,7 +306,7 @@ h1, h2, h3, h4, h5, h6, p {
   font-size: 0.9rem;
   font-weight: bold;
 }
-.main .proyectos .contenedor-proyectos .proyecto .info p .html {
+.main .proyectos .contenedor-proyectos .proyecto .info p .java {
   color: #854723;
 }
 .main .proyectos .contenedor-proyectos .proyecto .info p .css {
@@ -314,6 +314,9 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .main .proyectos .contenedor-proyectos .proyecto .info p .javascript {
   color: #958120;
+}
+.main .proyectos .contenedor-proyectos .proyecto .info p .Springboot {
+  color: #21e02b;
 }
 .main .proyectos .contenedor-proyectos .proyecto .info p .bootstrap {
   color: #623F91;
@@ -325,8 +328,11 @@ h1, h2, h3, h4, h5, h6, p {
   width: 100%;
   height: 11.25rem;
   vertical-align: top;
+  display: flex;
 }
-/* Tarjetas conocimientos */
+
+
+/*Conocimientos */
 .main .conocimientos {
   min-height: 100vh;
   background: #ffffff;
@@ -394,12 +400,12 @@ h1, h2, h3, h4, h5, h6, p {
   width: 100%;
   height: 100%;
 
-
   /*Posicion de las imagenes en las tarjetas */
   display: flex; /* Flexbox para centrar */
 
   justify-content: center; /* Centra horizontalmente */
   align-items: center; /* Centra verticalmente */
+  
 }
 .main .conocimientos .contenedor .contenedor-conocimientos .tarjeta .detalles {
   padding: 1.25rem;
