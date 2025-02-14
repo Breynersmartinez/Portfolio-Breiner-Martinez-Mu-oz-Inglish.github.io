@@ -13,9 +13,9 @@
 ✔ **Metodologías:** Arquitectura limpia | Desarrollo escalable  
 
 ## 📂 **Proyectos Destacados**  
-🔹 **[Gestión de Salas y Préstamo de Computadores](#)** – API para administrar salas de trabajo y préstamos de equipos.  
-🔹 **[Api_Estudiantes](#)** – Api para gestión de Estudiantes.  
-🔹 **[Api_Producs](#)** – Api para la gestión de productos, pedidos y pagos.  
+🔹 **[Gestión de Salas y Préstamo de Computadores](https://github.com/Breynersmartinez/programa-de-gestion-de-salas-y-equipos-de-computo)** – API para administrar salas de trabajo y préstamos de equipos.  
+🔹 **[Api_Estudiantes](https://github.com/Breynersmartinez/API_estudiantes)** – Api para gestión de Estudiantes.  
+🔹 **[Api_Producs](https://github.com/Breynersmartinez/Api_Products)** – Api para la gestión de productos, pedidos y pagos.  
 🔹 **[Api_Usuarios](#)** – Api para la autenticacion y creacion de Usuarios.
 
 Cada proyecto incluye:  
