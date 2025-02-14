@@ -24,15 +24,19 @@ $('document').ready(function(){
     profesion.reveal(3000);
 
     var boton = document.getElementById('boton');
-        
+       
+    
+    /* Controla el efecto de la aparicion de las letras en la descricion*/
     $('#tagline').t({
-        beep:false,
-        caret:'<span style="color:hotpink;">•</span>',
-        typing:function(elm,chr){
-        if(chr.match(/\-trigger/))
-            $('#pow-txt').show().delay(500).fadeOut(0);
-        }
-    });
+      beep: false,
+      caret: '<span style="color:hotpink;">•</span>',
+      //Se controla la velocidad de aparicion por caracter. entre se reduzca el valor, es mas veloz.
+      speed: 5, // Reduce el tiempo entre caracteres (más rápido)
+      typing: function(elm, chr) {
+          if (chr.match(/\-trigger/))
+              $('#pow-txt').show().delay(20).fadeOut(0);
+      }
+  });
 
     $('#boton-arriba').click(function(){
         $('body, html').animate({
